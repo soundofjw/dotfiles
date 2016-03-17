@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+exec curl $1 | keybase decrypt
+echo ""
